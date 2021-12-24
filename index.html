@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Viktorīna</title>
+    <link href="../main.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <button id="go" onclick="nextQuestion()">Sākt testu!</button>
+    <h3 id="questionField"></h3>
+    <button id="answer1" onclick="checkAnswer(this.innerHTML)" style="visibility:hidden"></button>
+    <button id="answer2" onclick="checkAnswer(this.innerHTML)" style="visibility:hidden"></button>
+    <button id="answer3" onclick="checkAnswer(this.innerHTML)" style="visibility:hidden"></button>
+    <script src="script.js"></script>
+  </body>
+</html>
